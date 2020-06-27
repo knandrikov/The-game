@@ -11,18 +11,20 @@
 body {
     color: white;
     font-size: 1em;
-	margin: 0;
-	background-blend-mode: lighten;
-	background-image: url('../Images/techbgr3.jpeg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	height: auto;
-	width: auto;
+    margin: 0;
+    background-blend-mode: lighten;
+    background-image: url('../Images/techbgr3.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: auto;
 }
+
 h1 {
-    color:black;
+    color: black;
 }
+
 .clearfix:before,
 .clearfix:after {
     display: table;
@@ -75,17 +77,15 @@ select:focus {
 
 .section1 .seperator {
     border-bottom: 6px solid white;
-	border-radius: 8px;
-	width: 450px;
+    border-radius: 8px;
+    width: 450px;
     display: inline-block;
-	margin: 20px;
-
+    margin: 20px;
 }
 
 .section1 h1 {
     font-size: 40px;
-    color: black
-    font-weight:normal;
+    color: black font-weight: normal;
 }
 
 .section2 {
@@ -144,7 +144,7 @@ select:focus {
     padding: 15px 40px;
     color: black;
     border: 0;
-    background:white;
+    background: white;
     font-size: 16px;
     text-transform: uppercase;
     margin: 7px 0;
