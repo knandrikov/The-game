@@ -17,24 +17,17 @@
     pointer-events: none;
 }
 
-.banner .content {
-    position: relative;
-    z-index: -1;
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
+.content {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 200px auto;
+    font-family: calibri;
+    border-radius: 10px;
 }
 
-.banner .content h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.banner .content p {
-    font-size: 1.5em;
+p {
+    font-size: 25px;
     color: black;
 }
 
